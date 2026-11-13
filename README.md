@@ -2,9 +2,6 @@
 
 > **Global Solution 2026.2 · CitizenTech** — FIAP Engenharia de Software (4ES)
 > Disciplina: **Project-Based Maker Lab** — Componente *Físico* do MVP AccessFlow
-
-📹 **Vídeo demonstrativo:** [LINK DO YOUTUBE AQUI](https://youtube.com/)
-
 ---
 
 ## 👥 Integrantes
