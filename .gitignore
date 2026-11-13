@@ -1,0 +1,48 @@
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Secrets - nunca commitar
+.env
+*.pem
+*.key
+
+# Logs
+*.log
+chico.log
+friday.log
+
+# Modelos/locais (61MB, nao precisa no repo publico)
+data/face_model.yml
+data/rostos/
+# manter face_nomes.txt e agenda.txt vazia se quiser
+
+# Audio temp
+*.mp3
+*.wav
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Command Code
+.commandcode/
+
+
+# Sensor de luz (gerados em runtime)
+data/leituras_luz.csv

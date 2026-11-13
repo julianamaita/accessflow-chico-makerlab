@@ -1,0 +1,37 @@
+# Chico - Assistente Virtual
+# CP4 FIAP 2 Semestre
+
+# Reconhecimento e sintese de voz
+SpeechRecognition==3.10.4
+pyttsx3==2.99             # 2.90 quebra no macOS (NameError: objc)
+pyobjc>=10.0; sys_platform == "darwin"  # necessario para TTS no macOS
+edge-tts==7.2.3          # voz neural pt-BR (leve; nao precisa de GPU)
+PyAudio==0.2.14          # microfone (Windows: pip install pipwin && pipwin install pyaudio)
+
+# IA Generativa
+google-genai==1.2.0
+
+# Visao computacional
+opencv-python==4.10.0.84
+opencv-contrib-python==4.10.0.84   # necessario para LBPHFaceRecognizer
+
+# Roteamento por embeddings (remove determinicidade dos comandos)
+scikit-learn==1.5.2
+
+# Extras item 10 (cross-platform Windows/Mac)
+mss==10.2.0
+pycaw==20251023; sys_platform == "win32"
+comtypes==1.4.16; sys_platform == "win32"
+
+# Audio (TTS neural no Windows sem abrir player)
+pygame==2.6.1
+
+# Requisicoes HTTP (clima, cambio, cripto)
+requests==2.32.3
+
+# Variaveis de ambiente
+python-dotenv==1.0.1
+
+
+# Comunicacao com o Arduino (sensor LDR)
+pyserial==3.5
