@@ -328,9 +328,9 @@ Isso pega variações tipo "marca um compromisso pra mim" → `cadastrar_agenda`
 | pyserial | 3.5 | Comunicação com o Arduino (sensor LDR) |
 
 ---
-
+## 📄 Link Youtube
 ---
-
+https://youtube.com/shorts/kJKFTZ26VtY?is=BVzZnjs5JVn6kAOy
 ## 📄 Licença
 
 Projeto acadêmico — FIAP 2026.
